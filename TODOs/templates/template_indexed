@@ -1,0 +1,24 @@
+#unigram
+
+
+# 0-> token 1
+# 1-> token 2
+# 2-> token count
+# 3-> average boldness
+# 4-> relative average font-size
+# 5-> Token1 feature function
+# 6-> Token2 feature function
+
+
+U0:%x[0,5]/%x[0,6]/%x[0,2]
+U1:%x[-1,2]/%x[0,2]/%x[1,2]
+U2:%x[-1,3]/%x[0,3]/%x[1,3]
+U3:%x[-1,4]/%x[0,4]/%x[1,4]
+U4:%x[0,5]/%x[0,6]/%x[0,2]/%x[0,3]
+U5:%x[0,5]/%x[0,6]/%x[0,2]/%x[0,4]
+U6:%x[0,5]/%x[0,6]/%x[0,2]/%x[0,4]/%x[0,3]
+#U7:%x[0,5]/%x[0,1]/%x[0,6]
+
+
+#Automatically create all bigram features
+B
