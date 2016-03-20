@@ -61,8 +61,9 @@ It is therefore expected that increase in training data will provide *far better
 ## Credits
 
 **Authors:**
-   * [Samuel Suraj Bushi][3]
-   * [Krishna Sai Rohith Kanuparthi][4]
+   * [Mayank Singh][3] (Mentor)
+   * [Samuel Suraj Bushi][4]
+   * [Krishna Sai Rohith Kanuparthi][5]
 
 ## License
 
@@ -72,5 +73,6 @@ See the LICENSE file for more details.
 
 [1]: https://sourceforge.net/projects/pdf2xml/
 [2]: https://taku910.github.io/crfpp/#download
-[3]: mailto:samuelsbushi@gmail.com
-[4]: mailto:krishnasai.rohith07@gmail.com
+[3]: http://cse.iitkgp.ac.in/~mayank.singh/
+[4]: mailto:samuelsbushi@gmail.com
+[5]: mailto:krishnasai.rohith07@gmail.com
